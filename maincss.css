@@ -106,3 +106,34 @@ iframe{
     width: 80%;
     height: 500px;
 }
+
+.dropdown1{
+    position: relative;
+    display: inline-block;
+}
+    
+.dropdowncontent1 {
+    display: none;
+    position: absolute;
+    background-color: white; 
+    min-width: 250px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 10; 
+    border-radius: 5px;
+    padding: 5px 0;
+    }
+.dropdown1:hover .dropdowncontent1 {
+    display: block;
+}
+    
+.dropdowncontent1 a {
+    display: block;
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+ }
+    
+.dropdowncontent1 a:hover {
+    background-color: #f0f0f0;
+}
